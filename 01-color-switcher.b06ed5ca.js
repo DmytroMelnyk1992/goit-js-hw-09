@@ -1,2 +1,0 @@
-const t=document.querySelector("[data-start]"),e=document.querySelector("[data-stop]"),o=document.body;e.disabled=!0,t.onclick=()=>{console.log("start switch"),t.disabled=!0,e.disabled=!1,timer=setInterval(c,1e3),c()};const c=()=>{o.style.cssText=`background-color: #${Math.floor(16777215*Math.random()).toString(16)};`,e.onclick=()=>{console.log("stop switch"),t.disabled=!1,e.disabled=!0,clearInterval(timer)}};
-//# sourceMappingURL=01-color-switcher.b06ed5ca.js.map
