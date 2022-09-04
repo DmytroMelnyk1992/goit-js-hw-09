@@ -3,7 +3,7 @@ function getRandomHexColor() {
 }
 const startBtn = document.querySelector('[data-start]');
 const stopBtn = document.querySelector('[data-stop]');
-const bodyColorSwitch = document.body;
+const bodyColorSwitch = document.querySelector('body');
 
 stopBtn.disabled = true;
 
